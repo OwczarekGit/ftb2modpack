@@ -1,0 +1,4227 @@
+{
+  "files": [
+    {
+      "version": "10",
+      "path": "./config/",
+      "url": "https://dist.modpacks.ch/modpacks/10/FTB%20Unstable%201.20:%20Forge-1.0.0/config/6ac7de634d1597220490048c3de6d3e81b006fb8",
+      "mirrors": [
+        
+      ],
+      "sha1": "6ac7de634d1597220490048c3de6d3e81b006fb8",
+      "size": 358,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323071,
+      "name": "bcc-common.toml",
+      "type": "config",
+      "updated": 1687207306
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "9862284af52931df937980f199a401bfe6651587",
+      "size": 70813,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324850,
+      "name": "AE2-Things-1.2.1.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 609977,
+        "file": 4616683
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "ee1bb98c47fad55338b927d2ef4a4f726154bdad",
+      "size": 24646,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324851,
+      "name": "AEInfinityBooster-1.20.1-1.0.0+19.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 559313,
+        "file": 4591624
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "11ad483d1fd1f7ebd84b4940b1dc0926b3e9daa8",
+      "size": 29553,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 322971,
+      "name": "AI-Improvements-1.20-0.5.2.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 233019,
+        "file": 4578262
+      }
+    },
+    {
+      "version": "0",
+      "path": "./config/adlods/Deposits/",
+      "url": "https://dist.modpacks.ch/modpacks/0/FTB%20Unstable%201.20:%20Forge-1.0.0/config/adlods/Deposits/461ed99e8aa7c128e5b3717b57475f20d6e90612",
+      "mirrors": [
+        
+      ],
+      "sha1": "461ed99e8aa7c128e5b3717b57475f20d6e90612",
+      "size": 6408,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 322970,
+      "name": "diamond.cfg",
+      "type": "config",
+      "updated": 1687207306
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "3287f29e697a4ed9da5c392715f7d864f570c613",
+      "size": 392864,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 325115,
+      "name": "Ad-Astra-Giselle-Addon-forge-1.20.1-5.2.jar",
+      "type": "mod",
+      "updated": 1689610117,
+      "curseforge": {
+        "project": 714958,
+        "file": 4630415
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "f96cc5f6c84807cd175356b32ecdd0dd5ee39621",
+      "size": 199575,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 322972,
+      "name": "AdChimneys-1.20.1-10.1.0.0-build.0142.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 244830,
+        "file": 4592997
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "305cc2a8037d45a156f1e9a689a3f4341ab7f8f7",
+      "size": 128772,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 322973,
+      "name": "AdLods-1.20.1-8.1.0.0-build.0142.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 318833,
+        "file": 4592972
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "447eff8c15914fe40f971f230ac22874052b3520",
+      "size": 997803,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 325116,
+      "name": "AdditionalEnchantedMiner-1.20.1-1201.0.10-SNAPSHOT.jar",
+      "type": "mod",
+      "updated": 1689610117,
+      "curseforge": {
+        "project": 282837,
+        "file": 4633529
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "b87d455306fb04241e3f21d1a23c3cdfebd33096",
+      "size": 859263,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324854,
+      "name": "AdvancedPeripherals-1.20.1-0.7.31a.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 431725,
+        "file": 4616066
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "8753ee47f2cbf56ca7514270aa8b2e8ad6bb498f",
+      "size": 113593,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 325117,
+      "name": "AngelRing2-1.20.1-2.2.1.jar",
+      "type": "mod",
+      "updated": 1689610117,
+      "curseforge": {
+        "project": 333396,
+        "file": 4641785
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "0196c7b62e16d902d88d3df6c4eceaf2c950d4e2",
+      "size": 175345,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 322976,
+      "name": "BambooEverything-forge-3.0.1-build.55+mc1.20.1.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 331723,
+        "file": 4586684
+      }
+    },
+    {
+      "version": "10",
+      "path": "./config/fancymenu/",
+      "url": "https://dist.modpacks.ch/modpacks/10/FTB%20Unstable%201.20:%20Forge-1.0.0/config/fancymenu/08dd2b089ddc77d0464a9a437cb1276794ee71ae",
+      "mirrors": [
+        
+      ],
+      "sha1": "08dd2b089ddc77d0464a9a437cb1276794ee71ae",
+      "size": 1660,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 322978,
+      "name": "config.txt",
+      "type": "config",
+      "updated": 1687207306
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "f47e20006d016efbf7bcfc36d31750f067475d0e",
+      "size": 25875,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324855,
+      "name": "BetterThanBunnies-1.20.1-Forge-1.3.0.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 241015,
+        "file": 4618799
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "5882da30a774dd5862f1b9d000b2a03ed220e30c",
+      "size": 33171,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324856,
+      "name": "BetterThanLlamas-1.20.1-Forge-1.2.0.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 264161,
+        "file": 4618801
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "37a25a1ec23a8fde8fdeaa3773f9fb6213bc351b",
+      "size": 1601323,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 322980,
+      "name": "BuildGuide-1.20-0.3.3.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 465690,
+        "file": 4575940
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "475f8cfb0bc678d0c5275190daa80fc272399fc5",
+      "size": 20299,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324742,
+      "name": "Clumps-forge-1.20.1-12.0.0.3.jar",
+      "type": "mod",
+      "updated": 1688054380,
+      "curseforge": {
+        "project": 256717,
+        "file": 4614555
+      }
+    },
+    {
+      "version": "2",
+      "path": "./config/fancymenu/customization/",
+      "url": "https://dist.modpacks.ch/modpacks/2/FTB%20Unstable%201.20:%20Forge-1.3.0/config/fancymenu/customization/eb9ea118e65086a098c6d30f3499ff1ff0a71934",
+      "mirrors": [
+        
+      ],
+      "sha1": "eb9ea118e65086a098c6d30f3499ff1ff0a71934",
+      "size": 5370,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324921,
+      "name": "main_background.txt",
+      "type": "config",
+      "updated": 1688751919
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "c09d1601d793eb7bc745fa025013830eddbf9228",
+      "size": 246039,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324857,
+      "name": "CommonCapabilities-1.20.1-2.9.0.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 247007,
+        "file": 4620480
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "a2c5d15540a29db805689ea57c85c652301a3e83",
+      "size": 2027484,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 325120,
+      "name": "Croptopia-1.20.1-FORGE-2.3.2.jar",
+      "type": "mod",
+      "updated": 1689610117,
+      "curseforge": {
+        "project": 415438,
+        "file": 4636036
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "c46db36e9fc40865d54590c1a59ea71915e341a6",
+      "size": 19141,
+      "tags": [
+        
+      ],
+      "clientonly": true,
+      "serveronly": false,
+      "optional": false,
+      "id": 324861,
+      "name": "Ding-1.20.1-Forge-1.4.1.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 231275,
+        "file": 4618813
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "8210c505600f29404abfbe551b9640e662cbe01c",
+      "size": 15025,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 325123,
+      "name": "EdivadLib-1.20.1-2.0.0.jar",
+      "type": "mod",
+      "updated": 1689610117,
+      "curseforge": {
+        "project": 638508,
+        "file": 4605798
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "a83b1e1135a92b7d3e21d69fe6c52292fbf6aa6c",
+      "size": 239572,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324863,
+      "name": "ExtraDisks-1.20.1-3.0.0.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 351491,
+        "file": 4628563
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "71eef6957cdea40fe74348c384c4eb3398b11c3b",
+      "size": 516703,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 322985,
+      "name": "ForgeEndertech-1.20.1-11.1.0.0-build.0142.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 244844,
+        "file": 4592949
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "16577116b969d369a5bf717b33dfa87fc3a70b25",
+      "size": 41278,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324864,
+      "name": "Flopper-1.20.1-1.1.4.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 290404,
+        "file": 4620453
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "863fae548f3ef4e275f74db688efa1875eb58db9",
+      "size": 1574019,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324865,
+      "name": "HammerLib-1.20.1-20.1.12.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 247401,
+        "file": 4623566
+      }
+    },
+    {
+      "version": "4",
+      "path": "./config/fancymenu/",
+      "url": "https://dist.modpacks.ch/modpacks/4/FTB%20Presents%20Direwolf20%201.19-1.0.0/config/fancymenu/e6ffb2badf3910d3152b706e0e369cc6f3a84c42",
+      "mirrors": [
+        
+      ],
+      "sha1": "e6ffb2badf3910d3152b706e0e369cc6f3a84c42",
+      "size": 76,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 312050,
+      "name": "customizablemenus.txt",
+      "type": "config",
+      "updated": 1670412792
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "ff9fcd85e03dda14304c512ea1a5c395aac44272",
+      "size": 56195,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 322988,
+      "name": "JAVD-Forge-5.0.0+mc1.20.1.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 370890,
+        "file": 4584885
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "e6920f4953f811a759acf7221ab9974b2ab7748a",
+      "size": 614908,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 325129,
+      "name": "IntegratedTunnels-1.20.1-1.8.21.jar",
+      "type": "mod",
+      "updated": 1689610117,
+      "curseforge": {
+        "project": 251389,
+        "file": 4631557
+      }
+    },
+    {
+      "version": "0",
+      "path": "./config/",
+      "url": "https://dist.modpacks.ch/modpacks/0/FTB%20Presents%20Direwolf20%201.19-1.12.0/config/ec9b90355a08b869927bfd55c5faf97e003d5a15",
+      "mirrors": [
+        
+      ],
+      "sha1": "ec9b90355a08b869927bfd55c5faf97e003d5a15",
+      "size": 292,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 322007,
+      "name": "toolkit.txt",
+      "type": "config",
+      "updated": 1686845796
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "9bd19848694010ac9b4f1175da55479ea25516ad",
+      "size": 330200,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324746,
+      "name": "OreBerries-Replanted-1.20.1-0.5.0.jar",
+      "type": "mod",
+      "updated": 1688054380,
+      "curseforge": {
+        "project": 454062,
+        "file": 4614558
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "71fcc306043f89b7e2c48554346396391ace6f27",
+      "size": 82676,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 322992,
+      "name": "PackingTape-1.20-0.14.1.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 238659,
+        "file": 4574130
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "f3e8805d706a36717306d92bd5c45cb2aef854b6",
+      "size": 76146,
+      "tags": [
+        
+      ],
+      "clientonly": true,
+      "serveronly": false,
+      "optional": false,
+      "id": 322990,
+      "name": "MouseTweaks-forge-mc1.20-2.25.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 60089,
+        "file": 4581240
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "5264c17d1fecb24307b010c561c74ecd2101b944",
+      "size": 76389,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 322993,
+      "name": "Platter-1.20-v1.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 381581,
+        "file": 4585822
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "dadd13c3eca531894736f1e51a0586d560f4a2ee",
+      "size": 1928809,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 325133,
+      "name": "Powah-5.0.1.jar",
+      "type": "mod",
+      "updated": 1689610117,
+      "curseforge": {
+        "project": 633483,
+        "file": 4638301
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "62f98eb3813cc720615c994082476f763511de1e",
+      "size": 907462,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324747,
+      "name": "REIPluginCompatibilities-forge-12.0.55.jar",
+      "type": "mod",
+      "updated": 1688054380,
+      "curseforge": {
+        "project": 521393,
+        "file": 4611912
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "45ba118c7f287e5c3d158284c859f01c5bd408ec",
+      "size": 23341,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324871,
+      "name": "PartyParrots-1.20.1-Forge-1.2.0.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 277681,
+        "file": 4618838
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "ac962914225ec045431b9c12618e296ca9cb3e22",
+      "size": 637092,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 325132,
+      "name": "Patchouli-1.20.1-81-FORGE.jar",
+      "type": "mod",
+      "updated": 1689610117,
+      "curseforge": {
+        "project": 306770,
+        "file": 4636277
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "61328784ad189a9ed3138c99ff3746a6ddb9925a",
+      "size": 2196185,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 325134,
+      "name": "RoughlyEnoughItems-12.0.634.jar",
+      "type": "mod",
+      "updated": 1689610117,
+      "curseforge": {
+        "project": 310111,
+        "file": 4647812
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "7fa7e42b5d7b1fbe8782cd70c777f0cc450a505f",
+      "size": 22965,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324748,
+      "name": "RoughlyEnoughProfessions-forge-1.20.1-2.0.1.jar",
+      "type": "mod",
+      "updated": 1688054380,
+      "curseforge": {
+        "project": 597988,
+        "file": 4614613
+      }
+    },
+    {
+      "version": "0",
+      "path": "./mods/",
+      "url": "https://dist.modpacks.ch/modpacks/0/FTB%20Unstable%201.20:%20Forge-1.4.0/mods/e753ba8cf2cc491a13eebb78f96af32a02098839",
+      "mirrors": [
+        
+      ],
+      "sha1": "e753ba8cf2cc491a13eebb78f96af32a02098839",
+      "size": 15883955,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 325135,
+      "name": "ScalableCatsForce-3.3.0-build-2-with-library.jar",
+      "type": "mod",
+      "updated": 1689610117
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "0351794d26fb8df00a8c8b594037456aa96b1b05",
+      "size": 85239,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 322999,
+      "name": "Shrink-1.20-1.4.1.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 426386,
+        "file": 4576062
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "7e5987a77d39ff90f3f04021c577c551a3986751",
+      "size": 60385,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323000,
+      "name": "SignButton-1.20-2.5.2.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 277970,
+        "file": 4578955
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "ec3c2d3919a72f72d562bb85cfcb76f57220c2f7",
+      "size": 77693,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323189,
+      "name": "Searchables-forge-1.20.1-1.0.1.jar",
+      "type": "mod",
+      "updated": 1687543998,
+      "curseforge": {
+        "project": 858542,
+        "file": 4598462
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "4793bc8ad563c23f4d345c38d9360cc5f8ceb3b2",
+      "size": 210260,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 322998,
+      "name": "SewingKit-1.20-1.8.0.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 411896,
+        "file": 4576809
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "cf3a5707aee872a9a1a7787e0a2d104d9ac18c83",
+      "size": 275174,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323003,
+      "name": "SolarFluxReborn-1.20.1-20.1.2.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 246974,
+        "file": 4586719
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "80fb17a4f8796f27f2d49896b09824bb910cf151",
+      "size": 512351,
+      "tags": [
+        
+      ],
+      "clientonly": true,
+      "serveronly": false,
+      "optional": false,
+      "id": 323190,
+      "name": "SimpleDiscordRichPresence-forge-4.0.0-build.33+mc1.20.1.jar",
+      "type": "mod",
+      "updated": 1687543998,
+      "curseforge": {
+        "project": 334853,
+        "file": 4598861
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "44646b0bec72414786a16aba7de4bc384ba572d9",
+      "size": 317350,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323002,
+      "name": "SmartBrainLib-forge-1.20-1.11.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 661293,
+        "file": 4575423
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "778a84895a0436d180d678780ccecde999644f0a",
+      "size": 2057154,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324873,
+      "name": "Statues-1.20.1-0.3.6.3.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 253172,
+        "file": 4625524
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "ba77f335f9fd99699ed5da8d7c8db0084c781eb7",
+      "size": 423452,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323004,
+      "name": "Super Factory Manager-1.20-4.10.2.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 306935,
+        "file": 4581173
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "27ea6b772140ca74cc4a04346567a2389646a31e",
+      "size": 43220,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 325136,
+      "name": "TC-Redstone-1.20.1-3.1.3.jar",
+      "type": "mod",
+      "updated": 1689610117,
+      "curseforge": {
+        "project": 503143,
+        "file": 4630458
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "fce3cbb3b72fa2b805b4097d4d63d9b8fb896a9e",
+      "size": 15039,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323191,
+      "name": "TipTheScales-forge-1.20.1-9.0.0.1.jar",
+      "type": "mod",
+      "updated": 1687543998,
+      "curseforge": {
+        "project": 282313,
+        "file": 4598450
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "092cf316a95d703494b663dbdae3fd1f0ed94c07",
+      "size": 61691,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323192,
+      "name": "ToolKit-forge-3.0.0-build.20+mc1.20.1.jar",
+      "type": "mod",
+      "updated": 1687543998,
+      "curseforge": {
+        "project": 324888,
+        "file": 4598902
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "ee5fe09dc15498ad3915b20b0e1d1660429fa799",
+      "size": 65840,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323008,
+      "name": "Trenzalore-Forge-3.0.1+mc1.20.1.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 870210,
+        "file": 4584819
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "0d4804ab0d1aa8e835b8692c38790eed2e9f3693",
+      "size": 18963193,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324874,
+      "name": "Tropicraft-9.6.1.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 254794,
+        "file": 4617294
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "f226f517ef8fce8b8e97e228ba4d17f0f933172e",
+      "size": 249865,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324875,
+      "name": "Waddles-1.20.1-0.9.4.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 251767,
+        "file": 4618308
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "d40beae393ec07da5faf925cea380e31a7f08d39",
+      "size": 568278,
+      "tags": [
+        
+      ],
+      "clientonly": true,
+      "serveronly": false,
+      "optional": false,
+      "id": 323010,
+      "name": "YeetusExperimentus-Forge-2.3.0-build.4+mc1.20.1.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 635427,
+        "file": 4589804
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "65094be930a2c9f4e5766247cc5385ddcbcd14e2",
+      "size": 37768,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323011,
+      "name": "[1.20][Forge]TorchBowMod_v1.0.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 289658,
+        "file": 4574052
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "d036f639edeba8945a797bbf64e06415445e4273",
+      "size": 10345496,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324751,
+      "name": "ad_astra-forge-1.20.1-1.15.1.jar",
+      "type": "mod",
+      "updated": 1688054380,
+      "curseforge": {
+        "project": 635042,
+        "file": 4606233
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "fe33901494b5e9febb5a659c19bd4aecf93ed372",
+      "size": 453274,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323013,
+      "name": "advancednetherite-forge-2.0.2-1.20.1.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 495336,
+        "file": 4584655
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "1d96d335424983b78691a8adcf377538938686d6",
+      "size": 10053385,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 325137,
+      "name": "appliedenergistics2-forge-15.0.4-beta.jar",
+      "type": "mod",
+      "updated": 1689610117,
+      "curseforge": {
+        "project": 223794,
+        "file": 4630732
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "a45b19a117f8415c606057d800e6f68204809696",
+      "size": 83011,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 325140,
+      "name": "athena-forge-1.20.1-3.0.0.jar",
+      "type": "mod",
+      "updated": 1689610117,
+      "curseforge": {
+        "project": 841890,
+        "file": 4621937
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "2e1d57707a596932c192ceeac7fdbc319ac9d892",
+      "size": 117049,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 325141,
+      "name": "balancedflight-1.20.1_v2.1.0.jar",
+      "type": "mod",
+      "updated": 1689610117,
+      "curseforge": {
+        "project": 538560,
+        "file": 4635838
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "a19b3441a36ee013831a7a274667c71e803b5a56",
+      "size": 210450,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324752,
+      "name": "beams-1.20.1-1.14.0.jar",
+      "type": "mod",
+      "updated": 1688054380,
+      "curseforge": {
+        "project": 634635,
+        "file": 4609641
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "2db54ac6f7aee80e28a7c54774c0f9d421c4af89",
+      "size": 2533252,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324753,
+      "name": "car-1.20.1-1.0.5.jar",
+      "type": "mod",
+      "updated": 1688054380,
+      "curseforge": {
+        "project": 267458,
+        "file": 4615403
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "23ff3c3409cf5e473c9e1d94b168309ffe3cd5d9",
+      "size": 3032423,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 325143,
+      "name": "cc-tweaked-1.20.1-forge-1.106.1.jar",
+      "type": "mod",
+      "updated": 1689610117,
+      "curseforge": {
+        "project": 282001,
+        "file": 4631334
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "22b62a40bbac0a7ccf9b982e63a492a23e9da294",
+      "size": 67599,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324878,
+      "name": "charginggadgets-1.11.0.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 399757,
+        "file": 4617304
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "cd87e26ab54ed232d2b40b1540637229f510192d",
+      "size": 3073388,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324754,
+      "name": "citadel-2.4.2-1.20.1.jar",
+      "type": "mod",
+      "updated": 1688054380,
+      "curseforge": {
+        "project": 331936,
+        "file": 4613231
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "url": "https://dist.modpacks.ch/unknownmods/unknown/fc8b7f06edade29450fe3b1482103dd3bb36117a",
+      "mirrors": [
+        
+      ],
+      "sha1": "fc8b7f06edade29450fe3b1482103dd3bb36117a",
+      "size": 1156874,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323020,
+      "name": "cloth-config-11.0.99-forge.jar",
+      "type": "mod",
+      "updated": 1687207306
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "b6f17b52c469c5ca27c9e90abdb0ecc0be16149d",
+      "size": 1168375,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 325144,
+      "name": "cloth-config-11.1.106-forge.jar",
+      "type": "mod",
+      "updated": 1689610117,
+      "curseforge": {
+        "project": 348521,
+        "file": 4633444
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "ed906fb381167f195ae28aabf3d94363f7f44697",
+      "size": 618381,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 325145,
+      "name": "collective-1.20.1-6.65.jar",
+      "type": "mod",
+      "updated": 1689610117,
+      "curseforge": {
+        "project": 342584,
+        "file": 4639343
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "a8a4bd3f4e53bdc44dbc12978f3df5ca4c329805",
+      "size": 779079,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324879,
+      "name": "connectedglass-1.1.7-forge-mc1.20.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 383129,
+        "file": 4629023
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "1120e4686f17f790309763ace78f657ee4bf5b51",
+      "size": 54387,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 325146,
+      "name": "crafting-on-a-stick-1.20.1-1.0.2.jar",
+      "type": "mod",
+      "updated": 1689610117,
+      "curseforge": {
+        "project": 577850,
+        "file": 4634785
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "9ed0d0e47f78273c5df1fab5a10ae08a70600631",
+      "size": 183519,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323023,
+      "name": "craftingtweaks-forge-1.20-18.0.2.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 233071,
+        "file": 4596466
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "53d8930f5edcff869d8ae0cbeddf73ca81227eda",
+      "size": 51453,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323173,
+      "name": "doubledoors-1.20.1-5.0.jar",
+      "type": "mod",
+      "updated": 1687529354,
+      "curseforge": {
+        "project": 348831,
+        "file": 4605226
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "7d161cd286f47ea056e046b137865c7c2424e23c",
+      "size": 111422,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324881,
+      "name": "creativewirelesstransmitter-1.20.1-1.0.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 452645,
+        "file": 4625091
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "26c3f76dbba950b58c63044ae6717d0d33fa0f01",
+      "size": 14789680,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324880,
+      "name": "create-1.20.1-0.5.1.d.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 328085,
+        "file": 4626108
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "6611016fed01842adb1d0ec7ec53bc00261b374d",
+      "size": 292482,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323024,
+      "name": "curios-forge-5.2.0-beta.3+1.20.1.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 309927,
+        "file": 4583413
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "d1cb8f21db9febb173f16f29c1590e65f64bbbd2",
+      "size": 240074,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324882,
+      "name": "enderchests-forge-1.20.1-1.0.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 363535,
+        "file": 4623815
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "7145da2bb45f6081ee36e098e9c1d15879000072",
+      "size": 188059,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323026,
+      "name": "elevatorid-1.20.1-1.8.14.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 250832,
+        "file": 4593336
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "72076da87dc7e3be338588337c3dec2ef5dc0f59",
+      "size": 80536,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324885,
+      "name": "experienceobelisk-v1.4.5-1.20.1.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 579484,
+        "file": 4630037
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "9f8d244153d446ccb7d4f208c3e654ce06cc858b",
+      "size": 266920,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324883,
+      "name": "endertanks-forge-1.20.1-1.0.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 59613,
+        "file": 4623826
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "751749af3eefd85ace7f2c324279ab0fc1eabd2e",
+      "size": 1589967,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324884,
+      "name": "energizedpower-1.20.1-1.7.6.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 782147,
+        "file": 4620906
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "d330932760549d537f4e9f0e2098b3277b0877d0",
+      "size": 8135,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323197,
+      "name": "flatbedrock-forge-3.0.0-build.17+mc1.20.1.jar",
+      "type": "mod",
+      "updated": 1687543998,
+      "curseforge": {
+        "project": 398623,
+        "file": 4598840
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "5caca1d7fce7154b79238804a7730e23ce767fce",
+      "size": 85218,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323033,
+      "name": "ftb-ranks-forge-2001.1.3.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 314905,
+        "file": 4596742
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "8b7628248ffd6e97bde2ffce0a630a4db4504b9b",
+      "size": 240019,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324886,
+      "name": "ftb-teams-forge-2001.1.4.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 404468,
+        "file": 4623116
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "543802e3674033509d154cb0283b1e01801b2fd4",
+      "size": 116788,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323030,
+      "name": "ftb-essentials-forge-2001.1.2.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 410811,
+        "file": 4596992
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "7b7352931a04c4aad7571f93955b7a205e2c894f",
+      "size": 606293,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323035,
+      "name": "ftb-library-forge-2001.1.2.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 404465,
+        "file": 4596511
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "ea84c245ce64bf2cd035483010eb59224172adff",
+      "size": 3740667,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323036,
+      "name": "ftbbackups2-forge-1.20-1.0.19.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 622737,
+        "file": 4584674
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "e886e76d20c1cbf3e7a308a28e7eda2cae3af6fa",
+      "size": 97029,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323198,
+      "name": "ftb-ultimine-forge-2001.1.2.jar",
+      "type": "mod",
+      "updated": 1687543998,
+      "curseforge": {
+        "project": 386134,
+        "file": 4597013
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "url": "https://dist.modpacks.ch/unknownmods/unknown/0247ab6d3d4ca8d5aee7829374fcfa3cff404974",
+      "mirrors": [
+        
+      ],
+      "sha1": "0247ab6d3d4ca8d5aee7829374fcfa3cff404974",
+      "size": 46622,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323037,
+      "name": "ftbauxilium-forge-2001.1.11-build.43-forge.jar",
+      "type": "mod",
+      "updated": 1687207306
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "42ce97322bca00623681acc99fbb86ec713c6b77",
+      "size": 1122558,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324888,
+      "name": "geckolib-forge-1.20.1-4.2.1.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 388172,
+        "file": 4627674
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "2f2e367688fe20a313535e6cbb5e384997be0168",
+      "size": 9218,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323038,
+      "name": "fuelgoeshere-1.20.0-1.0.1.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 659090,
+        "file": 4579966
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "6f1e3a25c4a0258c2592fefb837f95a24eb3bfa0",
+      "size": 14539,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": true,
+      "optional": false,
+      "id": 323039,
+      "name": "fullstackwatchdog-1.0.1+1.19.2-forge.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 849817,
+        "file": 4488549
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "2c7ddb3406c228be6616ea9b48ab530f957f7fa0",
+      "size": 22446,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323043,
+      "name": "inventorytotem-1.20.1-3.0.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 349071,
+        "file": 4583605
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "8ac414233bc9a5846a18be9a15a607dc65157414",
+      "size": 468899,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324889,
+      "name": "harvestwithease-1.20.1-7.0.0.2-forge.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 602171,
+        "file": 4626585
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "2fda72df9045fef4ba8c7ecbbbd1c04d473e2751",
+      "size": 199804,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323199,
+      "name": "hole_filler_mod-1.2.8_mc-1.20.1_forge.jar",
+      "type": "mod",
+      "updated": 1687543998,
+      "curseforge": {
+        "project": 440585,
+        "file": 4588152
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "c9143efbd05ab0c1ff3727248ab82eefa7408d3e",
+      "size": 601255,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323046,
+      "name": "ironfurnaces-1.20-3.9.0.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 237664,
+        "file": 4580546
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "f0c03de02a367ae790b6e3fa28a8534ef6bd4d32",
+      "size": 101294,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324890,
+      "name": "itemcollectors-1.1.8-forge-mc1.20.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 395620,
+        "file": 4625317
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "4b2dd0f581e40f8bd6f6e63b2d84c06dfde2c4eb",
+      "size": 311290,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324755,
+      "name": "ironchest-1.20.1-14.4.4.jar",
+      "type": "mod",
+      "updated": 1688054380,
+      "curseforge": {
+        "project": 228756,
+        "file": 4614852
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "e260e428b3edcb918a5498f324bddc1b9ec58ce0",
+      "size": 117066,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323045,
+      "name": "ironcoals-4.1.5.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 401945,
+        "file": 4576533
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "b5a2a5bc928ce6a1db472af07d50f4fa9d80b1e3",
+      "size": 100868,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323049,
+      "name": "landmines-1.0.6-forge-mc1.20.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 499336,
+        "file": 4573605
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "6714da21ad7a733a1376a186d5248fd06cd53f3b",
+      "size": 624093,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323048,
+      "name": "konkrete_forge_1.6.1-2_MC_1.20.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 410295,
+        "file": 4583492
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "14e358abc4a38b5c83fd2b87d28da284bb1eb02b",
+      "size": 176439,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323052,
+      "name": "luggage-1.20-1.6.2.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 594709,
+        "file": 4590608
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "f0b73885662b8ffbc448623d1d117b663673f35e",
+      "size": 65273,
+      "tags": [
+        
+      ],
+      "clientonly": true,
+      "serveronly": false,
+      "optional": false,
+      "id": 323050,
+      "name": "light-overlay-8.0.0-forge.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 325492,
+        "file": 4573178
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "392e4ca6b3170587c400edeffe55df7b2ab54b43",
+      "size": 1245348,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 325149,
+      "name": "laserio-1.6.4.jar",
+      "type": "mod",
+      "updated": 1689610117,
+      "curseforge": {
+        "project": 626839,
+        "file": 4637547
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "c95a7e3b0040d74f53dd7ee986e16ed2e955d4d6",
+      "size": 31801,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323051,
+      "name": "loadmyresources_forge_1.0.4_MC_1.19.3.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 534502,
+        "file": 4203277
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "b4098edb62bbcb08688617f972b3c034eca4d480",
+      "size": 61000,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323055,
+      "name": "mcw-paintings-1.0.4forge-mc1.20.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 438116,
+        "file": 4573787
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "99c20d69ef9fab81c689a0ceaf45a9f3155a12d1",
+      "size": 621167,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324894,
+      "name": "mininggadgets-1.15.0.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 351748,
+        "file": 4617331
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "a144682ae1ec40a601cf35d03d63d9662850f03c",
+      "size": 1123018,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324895,
+      "name": "modular-routers-12.0.1+mc1.20.1.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 250294,
+        "file": 4616161
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "272bddb5e5284737f11519c6895cfb07fe38ab51",
+      "size": 183482,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323057,
+      "name": "online_detector-1.20-6.0.0.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 454487,
+        "file": 4574905
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "36711628c8b69cf0a1a0e2f870b33a48fafbb9d4",
+      "size": 911175,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 325153,
+      "name": "pedestals-0.4.55.jar",
+      "type": "mod",
+      "updated": 1689610117,
+      "curseforge": {
+        "project": 392039,
+        "file": 4638552
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "48f99b817adb699664e7a966ae5d76402dd63c65",
+      "size": 565444,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324897,
+      "name": "mowlib-0.4.53.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 631455,
+        "file": 4619813
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "59fa6de0f16e8b4868252dcb7c5b9781aa722890",
+      "size": 4102322,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 325154,
+      "name": "planttech2-0.02.682.jar",
+      "type": "mod",
+      "updated": 1689610117,
+      "curseforge": {
+        "project": 309830,
+        "file": 4634682
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "ab37fee95a5fd138d1ad2214453c4fb93ec5715e",
+      "size": 10690416,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324903,
+      "name": "pneumaticcraft-repressurized-6.0.0+mc1.20.1.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 281849,
+        "file": 4619052
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "f807cadba0687d0689105dc32e9031bbbefc1871",
+      "size": 409066,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324902,
+      "name": "pipez-1.20.1-1.1.3.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 443900,
+        "file": 4629656
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "ad9fc16659f832821b63f804c7fce54df013895a",
+      "size": 533408,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324901,
+      "name": "plane-1.20.1-1.0.5.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 414049,
+        "file": 4615408
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "2433b82365f9686c9dae80b69e5596b6cc5924db",
+      "size": 104481,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323060,
+      "name": "portabletanks-1.1.7-forge-mc1.20.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 503920,
+        "file": 4595672
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "276f7b89affb3c431c83d4403d2e5246a20e67ac",
+      "size": 726706,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323062,
+      "name": "polylib-forge-1200.0.2-build.85.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 576589,
+        "file": 4586333
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "3e297ddd6fbcb86eef7efbb62026732d982fa8bd",
+      "size": 27183,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324905,
+      "name": "rangedpumps-1.1.0.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 247496,
+        "file": 4629841
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "8c4b63e2dbe18119092eb7a801f0c3034bec3afd",
+      "size": 49872,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323061,
+      "name": "propellerhats-1.20-1.0.2.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 441248,
+        "file": 4580551
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "382016e550b6ea225e7326548e4968264caac9d2",
+      "size": 133115,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323064,
+      "name": "pylons-1.20-4.0.0.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 518211,
+        "file": 4579437
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "829c7270a3fad543e441a18b5b9f27fd30824086",
+      "size": 33771,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324907,
+      "name": "refinedstorageaddons-0.10.0.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 272302,
+        "file": 4626171
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "8cf611738a12b4266397db8cbf54c96947b49a2e",
+      "size": 1233114,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323063,
+      "name": "relics-1.20.1-0.4.8.3.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 445274,
+        "file": 4594480
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "5d2a5e83a89eb6f3bc838cd87b3bf53bd8ec0ce6",
+      "size": 3291779,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 325156,
+      "name": "refinedstorage-1.12.3.jar",
+      "type": "mod",
+      "updated": 1689610117,
+      "curseforge": {
+        "project": 243076,
+        "file": 4630564
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "9fceaaeafff43a4f0453a8661dd824ac6dbb5fcf",
+      "size": 415430,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323207,
+      "name": "rftoolsbase-1.20-5.0.0.jar",
+      "type": "mod",
+      "updated": 1687543998,
+      "curseforge": {
+        "project": 326041,
+        "file": 4598236
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "0888aae4f61ed30ff2a86192fde3db6f6b1e3549",
+      "size": 8199141,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324761,
+      "name": "repurposed_structures-7.0.0+1.20-forge.jar",
+      "type": "mod",
+      "updated": 1688054380,
+      "curseforge": {
+        "project": 368293,
+        "file": 4573534
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "50866f3a26bc56694a77f9720474bcb912c509bf",
+      "size": 129046,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323066,
+      "name": "resourcefulconfig-forge-1.20-2.0.0.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 714059,
+        "file": 4576455
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "b590c4f1442677655d7c48715df4378eae237161",
+      "size": 1734825,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323209,
+      "name": "rftoolsdim-1.20-11.0.0.jar",
+      "type": "mod",
+      "updated": 1687543998,
+      "curseforge": {
+        "project": 240950,
+        "file": 4598242
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "858045064fd4b6aed063ac4ebfcf59e509add1f0",
+      "size": 870521,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323210,
+      "name": "rftoolsbuilder-1.20-6.0.0.jar",
+      "type": "mod",
+      "updated": 1687543998,
+      "curseforge": {
+        "project": 347706,
+        "file": 4598237
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "e73483a75afebf8ededebd6b26e9cf2e960bc8c5",
+      "size": 589639,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323208,
+      "name": "rftoolscontrol-1.20-7.0.0.jar",
+      "type": "mod",
+      "updated": 1687543998,
+      "curseforge": {
+        "project": 250763,
+        "file": 4598239
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "08c4d127147f5e99e48926feb017aedf8079a3cb",
+      "size": 369511,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323213,
+      "name": "rftoolsstorage-1.20-5.0.0.jar",
+      "type": "mod",
+      "updated": 1687543998,
+      "curseforge": {
+        "project": 350006,
+        "file": 4598248
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "beecb7bb372ad3e90a225cf7e70a678ec82ebe01",
+      "size": 561216,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323212,
+      "name": "rftoolspower-1.20-6.0.0.jar",
+      "type": "mod",
+      "updated": 1687543998,
+      "curseforge": {
+        "project": 290209,
+        "file": 4598245
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "aca1e1a46f28246956f08f174b88d9078da1cb70",
+      "size": 1366842,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323211,
+      "name": "rftoolsutility-1.20-6.0.0.jar",
+      "type": "mod",
+      "updated": 1687543998,
+      "curseforge": {
+        "project": 342466,
+        "file": 4598250
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "3d684cc9c81d6e5e3fb2134c11671e367a78641b",
+      "size": 62915,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324909,
+      "name": "rsrequestify-1.20.1-2.3.2.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 307788,
+        "file": 4629977
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "2ab4e41d893718f2c787545c915a71cf9a43fb78",
+      "size": 332965,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324908,
+      "name": "shetiphiancore-forge-1.20.1-1.0.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 71738,
+        "file": 4623806
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "f6d7615ac5349fc1625cd2941a5d861c52428a0b",
+      "size": 221124,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324762,
+      "name": "shulkerboxtooltip-forge-4.0.4+1.20.1.jar",
+      "type": "mod",
+      "updated": 1688054380,
+      "curseforge": {
+        "project": 315811,
+        "file": 4611155
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "ac90a22bb30d0efba80a203f7c880a317687cc30",
+      "size": 554519,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324910,
+      "name": "simplylight-1.20.1-1.4.5-build.49.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 300331,
+        "file": 4622113
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "e475f7f5e0959af0c39fe1bf0603b93edae8ff1e",
+      "size": 129047,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323069,
+      "name": "simplemagnets-1.1.9-forge-mc1.20.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 394140,
+        "file": 4573713
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "4f87d2c0245bee18e44ee87cb65cc4709dcfcf2d",
+      "size": 155775,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 325158,
+      "name": "simplybackpacks-1.20.1-2.1.5-build.51.jar",
+      "type": "mod",
+      "updated": 1689610117,
+      "curseforge": {
+        "project": 311595,
+        "file": 4631601
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "14d5fd4e57f99287ef62ea273254f3606ca2065f",
+      "size": 364348,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323068,
+      "name": "soulshards-1.20-1.3.4.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 551523,
+        "file": 4586726
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "79a24c3a96af93968517266c6c24987693b0c1d8",
+      "size": 790387,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 325159,
+      "name": "sophisticatedbackpacks-1.20.1-3.18.56.890.jar",
+      "type": "mod",
+      "updated": 1689610117,
+      "curseforge": {
+        "project": 422301,
+        "file": 4637294
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "url": "https://dist.modpacks.ch/unknownmods/unknown/aa6386890f9fd1075cec215635a23335e3bc6aba",
+      "mirrors": [
+        
+      ],
+      "sha1": "aa6386890f9fd1075cec215635a23335e3bc6aba",
+      "size": 490215,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323070,
+      "name": "supermartijn642corelib-1.1.9-forge-mc1.20.jar",
+      "type": "mod",
+      "updated": 1687207306
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "4fb15b42fab48b33b41d29ceef1b5c51248b55d5",
+      "size": 2978275,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323072,
+      "name": "spark-1.10.42-forge.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 361579,
+        "file": 4587309
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "8fd701b766f5cad08ec75e632e2bade0552a421e",
+      "size": 206490,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324914,
+      "name": "supermartijn642configlib-1.1.7-forge-mc1.20.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 438332,
+        "file": 4629797
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "d6cce6630c4dd40664c850a2e12a49b1e18da067",
+      "size": 1195617,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324915,
+      "name": "tesseract-1.0.35-forge-mc1.20.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 379232,
+        "file": 4628363
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "9fb82606999b38d7037684bba521dc238a9f07db",
+      "size": 43525,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324919,
+      "name": "universalgrid-1.20.1-1.0.jar",
+      "type": "mod",
+      "updated": 1688751919,
+      "curseforge": {
+        "project": 536160,
+        "file": 4625088
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "b3c07b22df551a47b30bef74558e039acd9c5070",
+      "size": 316142,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323077,
+      "name": "wirelesschargers-1.0.8-forge-mc1.20.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 510656,
+        "file": 4573794
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "e46587f2523fa54435d513fc2856788dd4e948e6",
+      "size": 42621,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 324767,
+      "name": "woodenhopper-1.20.1-1.5.1.0.jar",
+      "type": "mod",
+      "updated": 1688054380,
+      "curseforge": {
+        "project": 440985,
+        "file": 4612515
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "41459e79cdea37c960133f2a4544f7510f0c26d3",
+      "size": 185526,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 325165,
+      "name": "useful_backpacks-forge-1.20.1-2.0.1.121.jar",
+      "type": "mod",
+      "updated": 1689610117,
+      "curseforge": {
+        "project": 274338,
+        "file": 4630778
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "1e677e16518680c7ca56cab42d38853800ee8e09",
+      "size": 443016,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 325164,
+      "name": "waystones-forge-1.20-14.0.1.jar",
+      "type": "mod",
+      "updated": 1689610117,
+      "curseforge": {
+        "project": 245755,
+        "file": 4635315
+      }
+    },
+    {
+      "version": "10",
+      "path": "./resources/sdrp/lang/",
+      "url": "https://dist.modpacks.ch/modpacks/10/FTB%20Unstable%201.20:%20Forge-1.0.0/resources/sdrp/lang/fc88bed9e6669f0543df40889cb0b168c94cb367",
+      "mirrors": [
+        
+      ],
+      "sha1": "fc88bed9e6669f0543df40889cb0b168c94cb367",
+      "size": 286,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323081,
+      "name": "en_us.json",
+      "type": "resource",
+      "updated": 1687207306
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "95aed06a662de541f753725545382bbf07e7316d",
+      "size": 868727,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323082,
+      "name": "wormhole-1.1.12-forge-mc1.20.jar",
+      "type": "mod",
+      "updated": 1687207306,
+      "curseforge": {
+        "project": 396803,
+        "file": 4573771
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "4b12b6f8848f756ad863b28aaebbed00c837657a",
+      "size": 518874,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323218,
+      "name": "xnet-1.20-6.0.0.jar",
+      "type": "mod",
+      "updated": 1687543998,
+      "curseforge": {
+        "project": 260912,
+        "file": 4598252
+      }
+    },
+    {
+      "version": "5",
+      "path": "./config/",
+      "url": "https://dist.modpacks.ch/modpacks/5/FTB%20Unstable%201.20:%20Forge-1.0.0/config/ed744c9c332a7003680007bb3ed1937cee581e96",
+      "mirrors": [
+        
+      ],
+      "sha1": "ed744c9c332a7003680007bb3ed1937cee581e96",
+      "size": 106,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323085,
+      "name": "sdrp-common.json",
+      "type": "config",
+      "updated": 1687207306
+    },
+    {
+      "version": "2",
+      "path": "./fancymenu_data/images/",
+      "url": "https://dist.modpacks.ch/modpacks/2/FTB%20Unstable%201.20:%20Forge-1.0.0/fancymenu_data/images/da9281954a2ac40ee4a9bf14087a11274d62a00d",
+      "mirrors": [
+        
+      ],
+      "sha1": "da9281954a2ac40ee4a9bf14087a11274d62a00d",
+      "size": 198,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323083,
+      "name": "auxilium-button.png",
+      "type": "resource",
+      "updated": 1687207306
+    },
+    {
+      "version": "10",
+      "path": "./fancymenu_data/images/",
+      "url": "https://dist.modpacks.ch/modpacks/10/FTB%20Unstable%201.20:%20Forge-1.0.0/fancymenu_data/images/8692759f20786fa28c98bdc32f59d9c1e225b647",
+      "mirrors": [
+        
+      ],
+      "sha1": "8692759f20786fa28c98bdc32f59d9c1e225b647",
+      "size": 1713590,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 323084,
+      "name": "background.png",
+      "type": "resource",
+      "updated": 1687207306
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "a03bf5c9c13e7231c9824d6818a4f2e5e7ba4fe9",
+      "size": 27288,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326878,
+      "name": "BetterCompatibilityChecker-forge-4.0.2+mc1.20.1.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 551894,
+        "file": 4675976
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "d65d6a37fddf7ac0d13cbbaf2bb632c20aa8c5bb",
+      "size": 336054,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326879,
+      "name": "Bookshelf-Forge-1.20.1-20.0.2.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 228525,
+        "file": 4668763
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "80c6a13b30df16c89bdb0e94b438ffee9e36a9c8",
+      "size": 146415,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326880,
+      "name": "Create-Guardian-Beam-Defense-1.2.6b-1.20.1.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 860168,
+        "file": 4655869
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "af1155418165439f36c2902ac2ebe0c91fd9f561",
+      "size": 4529097,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326881,
+      "name": "Cyclic-1.20.1-1.12.2.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 239286,
+        "file": 4661938
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "4f5794a9cad319976f4c657c2a92518a126f291a",
+      "size": 898666,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326882,
+      "name": "CyclopsCore-1.20.1-1.18.8.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 232758,
+        "file": 4674315
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "c923428c4238b0579aef39f6b8082bb279b16fe6",
+      "size": 10322602,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326883,
+      "name": "DramaticDoors-Forge-1.20.1-2.3.7_1.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 380617,
+        "file": 4659872
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "e67875dffaba01da115d6154cffd48088d4e4565",
+      "size": 6608375,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326884,
+      "name": "EnderIO-1.20.1-6.0.11-alpha.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 64578,
+        "file": 4674082
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "5e3bd9f519948baf94c693219760840628ba7dc7",
+      "size": 369062,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326885,
+      "name": "ExtraStorage-1.20.1-4.0.1.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 410168,
+        "file": 4660359
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "d972142063749c9710fb5c4314791b0bdb199cb2",
+      "size": 183766,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326886,
+      "name": "EverlastingAbilities-1.20.1-2.0.9.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 248353,
+        "file": 4672549
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "e28687abc49e706723a05e3aec71c1f795333ce1",
+      "size": 283354,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326887,
+      "name": "IntegratedCrafting-1.20.1-1.1.4.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 287357,
+        "file": 4674350
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "39c142f464da1ea6e5a88333285c0335e6fa46d6",
+      "size": 4022149,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326888,
+      "name": "IntegratedDynamics-1.20.1-1.16.10.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 236307,
+        "file": 4674328
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "aee5e80d82f2388552eb3c0bcbc392fc637be30a",
+      "size": 40116,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326889,
+      "name": "JAMD-Forge-3.0.1+mc1.20.1.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 422981,
+        "file": 4654176
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "d0e980c58b6e292607211308dc1e712ecdb13814",
+      "size": 521759,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326890,
+      "name": "IntegratedTerminals-1.20.1-1.4.10.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 295910,
+        "file": 4674362
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "9c17b4d5092279adaa03811708766e3f9a0912c4",
+      "size": 30731274,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326891,
+      "name": "L_Enders_Cataclysm-1.28-1.20.1.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 551586,
+        "file": 4676107
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "210bd9c1236a83b9d1f0c9ccbe24deda94f52e91",
+      "size": 324953,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326892,
+      "name": "MorePeripherals_1.20.1-1.12.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 570908,
+        "file": 4672946
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "1ad2a3e41c5c3ede0ce53d34458976cd01f12847",
+      "size": 494203,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326893,
+      "name": "Jade-1.20-forge-11.4.0.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 324717,
+        "file": 4675959
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "4130da1af680fac74c782ec1900ad6646536e926",
+      "size": 368215,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326894,
+      "name": "Nullscape_1.20.1_v1.2.1.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 570354,
+        "file": 4630978
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "abd243495fef544c116666c80b95b0de40cf9925",
+      "size": 656299,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326895,
+      "name": "RootsClassic-1.20.1-1.3.1.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 295780,
+        "file": 4652663
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "d122a5c7d8d49f0f9abb242a3131a7fd9739439f",
+      "size": 3131437,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326896,
+      "name": "additionallanterns-1.1.0-forge-mc1.20.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 501590,
+        "file": 4675323
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "2d082fc74cc9c07df939bfc291aa8dd0387e86c9",
+      "size": 12592991,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326897,
+      "name": "ars_nouveau-1.20.1-4.2.2-all.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 401955,
+        "file": 4673618
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "49fc332e52027845caaa0098289dc9059b8eb010",
+      "size": 567579,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326898,
+      "name": "architectury-9.1.12-forge.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 419699,
+        "file": 4663010
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "9345b52c0d82a450d0ad9bb3ec09d03225b3a028",
+      "size": 331236,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326899,
+      "name": "balm-forge-1.20-7.0.7.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 531761,
+        "file": 4670591
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "6444145d4c89755c218d907a19177b72be9baa7f",
+      "size": 140559,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326900,
+      "name": "botarium-forge-1.20.1-2.2.0.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 704113,
+        "file": 4672475
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "da926733da5abcaf23800631b81dd227b1ecf934",
+      "size": 41213,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326901,
+      "name": "eccentrictome-1.20.1-1.10.1.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 597522,
+        "file": 4658936
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "66d09770e5301cf0e0a6bd391fbe2d2cd338c4e2",
+      "size": 113684,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326902,
+      "name": "entangled-1.3.15-forge-mc1.20.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 301034,
+        "file": 4676248
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "a1f1ea0e2a2ac96102bd2509e490ac328e5803f9",
+      "size": 282190,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326903,
+      "name": "flib-1.20.1-0.0.9.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 661261,
+        "file": 4661080
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "88523e2e818287ad018d1d03389d8e4baad1a98a",
+      "size": 898207,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326904,
+      "name": "ftb-chunks-forge-2001.1.4.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 314906,
+        "file": 4654814
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "aba2cb9d24f364b615b8bd84c15b99ca9571b941",
+      "size": 1305988,
+      "tags": [
+        
+      ],
+      "clientonly": true,
+      "serveronly": false,
+      "optional": false,
+      "id": 326905,
+      "name": "fancymenu_forge_2.14.9_MC_1.20.1.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 367706,
+        "file": 4655957
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "7d7fe98eba85ea49c06e806c642e25332c4a89a2",
+      "size": 170040,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326906,
+      "name": "fusion-1.0.5-forge-mc1.20.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 854949,
+        "file": 4670845
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "32e30b71d7ef67b306a24191c655528509454cb5",
+      "size": 52148,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326907,
+      "name": "inventorysorter-1.20.1-23.0.1.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 240633,
+        "file": 4655091
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "14d759598e7ae34817a248faaba40cd36b3ba4d0",
+      "size": 765289,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326908,
+      "name": "l2library-2.4.14.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 620203,
+        "file": 4652372
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "aecd972544e48d94e779ea7a072392ec62ec4e5a",
+      "size": 3995037,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326909,
+      "name": "mahoutsukai-1.20.1-v1.34.53.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 342543,
+        "file": 4654388
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "7df1a8889a37cfbb2ac14ba463a3616229b9a7e1",
+      "size": 677484,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326910,
+      "name": "mcjtylib-1.20-8.0.1.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 233105,
+        "file": 4656169
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "6a7e4ced33eadad9656213b85af12d632b6e1d25",
+      "size": 1220440,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326911,
+      "name": "modulargolems-2.4.9.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 690937,
+        "file": 4663494
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "4241ffebd75c3df690a5976ed1301a741665db9d",
+      "size": 909381,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326912,
+      "name": "moonlight-1.20-2.7.2-forge.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 499980,
+        "file": 4656567
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "dbc1c3dbf046fb6e87cf5f2e252941a0a6bd3e8d",
+      "size": 2035593,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326913,
+      "name": "modonomicon-1.20.1-forge-1.39.0.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 538392,
+        "file": 4675992
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "6f95dc3a82e2c61eb2f4cf4b675c35b2d110f3a4",
+      "size": 5310424,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326914,
+      "name": "occultism-1.20.1-1.84.0.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 361026,
+        "file": 4676081
+      }
+    },
+    {
+      "version": "0",
+      "path": "./mods/",
+      "url": "https://dist.modpacks.ch/modpacks/0/FTB%20Unstable%201.20:%20Forge-1.4.0/mods/f5a055f40d7dd6bb7af7db80afe3008913a6e3d4",
+      "mirrors": [
+        
+      ],
+      "sha1": "f5a055f40d7dd6bb7af7db80afe3008913a6e3d4",
+      "size": 297448,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 325155,
+      "name": "polymorph-forge-0.49.0+1.20.1.jar.disabled",
+      "type": "resource",
+      "updated": 1689610117
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "2166d5141f9ac7a4e6a1d4afabc3fa70d936769d",
+      "size": 4157617,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326916,
+      "name": "productivebees-1.20.1-12.1.3.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 377897,
+        "file": 4633250
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "0487918865a377bf6fad990edd0eadeaa4679a5b",
+      "size": 3177134,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326917,
+      "name": "rechiseled-1.1.2a-forge-mc1.20.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 558998,
+        "file": 4670923
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "2331ec4d8e4a2b19de8c80ef8bdf0466b1546766",
+      "size": 370007,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326918,
+      "name": "resourcefullib-forge-1.20.1-2.1.8.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 570073,
+        "file": 4674658
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "4a35eed637a459f7626a26675e959b72cc8a913e",
+      "size": 74624,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326919,
+      "name": "simplygraves-1.20.1-1.0.5-build.4.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 620112,
+        "file": 4657188
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "a75d9562ad1be699e4379256d843b204734b5b90",
+      "size": 1021772,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326920,
+      "name": "sophisticatedstorage-1.20.1-0.8.44.571.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 619320,
+        "file": 4667943
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "b1569b0856786a25cf4435042208266cf5e2e582",
+      "size": 983002,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326921,
+      "name": "sophisticatedcore-1.20.1-0.5.83.395.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 618298,
+        "file": 4668695
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "e469976bf9e24030af6a2c7dbce8db83f98a738c",
+      "size": 490435,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326922,
+      "name": "supermartijn642corelib-1.1.12a-forge-mc1.20.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 454372,
+        "file": 4663719
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "be1441cde0350890a221f86887db89fa94512ef5",
+      "size": 504999,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326923,
+      "name": "toms_storage-1.20-1.6.4.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 378609,
+        "file": 4649849
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "bb915bbfa593a0cb15b99ff0bfae71e4a7ced14f",
+      "size": 102730,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326924,
+      "name": "torchmaster-20.1.4.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 254268,
+        "file": 4673248
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "8f07be519dcaebde156eceadba27875c1b18f23d",
+      "size": 14513320,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326925,
+      "name": "supplementaries-1.20-2.5.21.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 412082,
+        "file": 4654103
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "20b35a1009fedfba7011b057c7ab34d5416903f0",
+      "size": 561930,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326926,
+      "name": "u_team_core-forge-1.20.1-5.1.3.268.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 273744,
+        "file": 4668344
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "2350c26c04011c4412318d390ee42e1c409c1b26",
+      "size": 157938,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326927,
+      "name": "trashcans-1.0.18a-forge-mc1.20.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 394535,
+        "file": 4665996
+      }
+    },
+    {
+      "version": "unknown",
+      "path": "./mods/",
+      "sha1": "16ed81f40e57ab9e0702c250a66e2d13119fb3cb",
+      "size": 23043386,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326928,
+      "name": "twilightforest-1.20.1-4.3.1750-universal.jar",
+      "type": "mod",
+      "updated": 1690910176,
+      "curseforge": {
+        "project": 227639,
+        "file": 4653704
+      }
+    },
+    {
+      "version": "10",
+      "path": "./config/",
+      "url": "https://dist.modpacks.ch/modpacks/10/metadata/config/f79d657b5b31eb42903d558668288d5d3a6b8814",
+      "mirrors": [
+        
+      ],
+      "sha1": "f79d657b5b31eb42903d558668288d5d3a6b8814",
+      "size": 115,
+      "tags": [
+        
+      ],
+      "clientonly": false,
+      "serveronly": false,
+      "optional": false,
+      "id": 326929,
+      "name": "metadata.json",
+      "type": "config",
+      "updated": 1690910178
+    }
+  ],
+  "specs": {
+    "id": 586,
+    "minimum": 4096,
+    "recommended": 6144
+  },
+  "targets": [
+    {
+      "version": "47.1.3",
+      "id": 4795,
+      "name": "forge",
+      "type": "modloader",
+      "updated": 1690910176
+    },
+    {
+      "version": "1.20.1",
+      "id": 4746,
+      "name": "minecraft",
+      "type": "game",
+      "updated": 1687206772
+    },
+    {
+      "version": "17.0.7+7",
+      "id": 4738,
+      "name": "java",
+      "type": "runtime",
+      "updated": 1683215664
+    }
+  ],
+  "installs": 21866,
+  "plays": 64871,
+  "refreshed": 1697057174,
+  "changelog": "https://api.modpacks.ch/public/modpack/110/6593/changelog",
+  "parent": 110,
+  "notification": "",
+  "links": [
+    
+  ],
+  "status": "success",
+  "id": 6593,
+  "name": "1.5.0",
+  "type": "release",
+  "updated": 1690910176,
+  "private": false
+}
