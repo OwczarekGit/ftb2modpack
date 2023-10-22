@@ -981,7 +981,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "ftb2pack"
+name = "ftb2modpack"
 version = "0.1.0"
 dependencies = [
  "iced",
