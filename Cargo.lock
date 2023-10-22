@@ -985,7 +985,6 @@ name = "ftb2modpack"
 version = "0.1.0"
 dependencies = [
  "iced",
- "log",
  "open",
  "reqwest",
  "rfd",
