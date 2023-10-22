@@ -7,6 +7,7 @@ use iced::widget::{Column, row, scrollable, column, button};
 use iced::widget::scrollable::Properties;
 use iced::widget::vertical_space;
 use std::ops::Not;
+use iced::widget::image::Handle;
 use crate::ftb_modpacks::{FTBModpackList};
 
 mod manifest;
@@ -64,9 +65,10 @@ pub enum Message {
 struct App {
     modpack_list: FTBModpackList,
     selected: Option<ftb_modpacks::Modpack>,
-    logos: HashMap<String, Vec<u8>>,
+    logos: HashMap<String, Box<Handle>>,
     selected_version: Option<String>,
     is_downloading: bool,
+    scroll_offset: scrollable::RelativeOffset,
 }
 
 impl Application for App {
@@ -82,7 +84,8 @@ impl Application for App {
                 selected: None,
                 logos: HashMap::new(),
                 selected_version: None,
-                is_downloading: false
+                is_downloading: false,
+                scroll_offset: scrollable::RelativeOffset::START,
             },
             Command::none()
         )
@@ -94,7 +97,9 @@ impl Application for App {
 
     fn update(&mut self, message: Self::Message) -> Command<Self::Message> {
         match message {
-            Message::Scrolled(_) => {}
+            Message::Scrolled(offset) => {
+                self.scroll_offset = offset.relative_offset();
+            }
             Message::ModpackSelected(index) => {
                 if self.is_downloading {
                     return Command::none();
@@ -111,7 +116,8 @@ impl Application for App {
                 }
             }
             Message::LogoLoaded(id, bytes) => {
-                self.logos.insert(id, bytes);
+                let img = image::Handle::from_memory(bytes);
+                self.logos.insert(id, Box::new(img));
             },
             Message::OpenProjectSite(id, slug) => {
                 let _ = open::that_detached(format!("https://www.feed-the-beast.com/modpacks/{id}-{slug}"));
@@ -207,14 +213,13 @@ async fn get_image(url: String) -> (String, Vec<u8>) {
     (url, bytes.map(|b|b.to_vec()).unwrap_or(vec![]))
 }
 
-fn selected_modpack<'a>(selected_version: &Option<String>, is_downloading: bool, logos: &'a HashMap<String, Vec<u8>>, pack: &Option<ftb_modpacks::Modpack>) -> Element<'a, Message> {
+fn selected_modpack<'a>(selected_version: &Option<String>, is_downloading: bool, logos: &'a HashMap<String, Box<Handle>>, pack: &Option<ftb_modpacks::Modpack>) -> Element<'a, Message> {
     match pack {
         None => row!().padding(10).into(),
         Some(pack) => {
             let img: Element<'_, Message> = if let Some(a) = pack.art.logo.clone() {
                 if let Some(logo) = logos.get(&a) {
-                    let img = image::Handle::from_memory(logo.clone());
-                    image::Image::new(img).width(Length::FillPortion(40)).into()
+                    image::Image::new(*logo.clone()).width(Length::FillPortion(40)).into()
                 } else {
                     text("No logo available".to_string())
                         .width(256)
