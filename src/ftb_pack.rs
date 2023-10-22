@@ -1,7 +1,7 @@
 use std::path::{Path, PathBuf};
 use serde::{Serialize, Deserialize};
 
-pub static API_URL: &'static str = "https://api.modpacks.ch/public/modpack/";
+pub static API_URL: &str = "https://api.modpacks.ch/public/modpack/";
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
 #[serde(rename_all = "camelCase")]

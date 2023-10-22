@@ -1,6 +1,6 @@
 use serde::{Deserialize, Serialize};
 
-pub static FTB_API_URL: &'static str = "https://meta.feed-the-beast.com/v1/modpacks";
+pub static FTB_API_URL: &str = "https://meta.feed-the-beast.com/v1/modpacks";
 
 #[derive(Serialize, Deserialize, Debug, Default)]
 #[serde(rename_all = "camelCase")]

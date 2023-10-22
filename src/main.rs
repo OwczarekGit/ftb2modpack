@@ -1,11 +1,12 @@
 use std::collections::HashMap;
 use std::path::PathBuf;
-use iced::{Application, Command, Element, Length, Renderer, Settings, Theme};
+use iced::{Application, Command, Element, Length, Renderer, Settings, Theme, theme};
 use iced::alignment::{Horizontal, Vertical};
 use iced::widget::{text, image, pick_list};
 use iced::widget::{Column, row, scrollable, column, button};
 use iced::widget::scrollable::Properties;
 use iced::widget::vertical_space;
+use std::ops::Not;
 use crate::ftb_modpacks::{FTBModpackList};
 
 mod manifest;
@@ -38,7 +39,8 @@ async fn main() -> iced::Result {
     //     ftb_pack::get_overrides("modpack", &file).await;
     // }
     
-    let ftb_modpacks = FTBModpackList::from_file("modpacks.json").unwrap();
+    // let ftb_modpacks = FTBModpackList::from_file("modpacks.json").unwrap();
+    let ftb_modpacks = FTBModpackList::get_all().await.unwrap();
     App::run(
         Settings {
             flags: ftb_modpacks,
@@ -55,7 +57,7 @@ pub enum Message {
     OpenProjectSite(i64, String),
     Version(String),
     DownloadClient(i64),
-    FTBModList(Result<ftb_pack::Pack, ()>),
+    FTBModList(Box<Result<ftb_pack::Pack, ()>>, String),
     DownloadComplete,
 }
 
@@ -64,6 +66,7 @@ struct App {
     selected: Option<ftb_modpacks::Modpack>,
     logos: HashMap<String, Vec<u8>>,
     selected_version: Option<String>,
+    is_downloading: bool,
 }
 
 impl Application for App {
@@ -73,7 +76,16 @@ impl Application for App {
     type Flags = FTBModpackList;
 
     fn new(flags: Self::Flags) -> (Self, Command<Self::Message>) {
-        (App { modpack_list: flags, selected: None, logos: HashMap::new(), selected_version: None }, Command::none())
+        (
+            App {
+                modpack_list: flags,
+                selected: None,
+                logos: HashMap::new(),
+                selected_version: None,
+                is_downloading: false
+            },
+            Command::none()
+        )
     }
 
     fn title(&self) -> String {
@@ -84,9 +96,13 @@ impl Application for App {
         match message {
             Message::Scrolled(_) => {}
             Message::ModpackSelected(index) => {
+                if self.is_downloading {
+                    return Command::none();
+                }
+
                 if let Some(sel) = self.modpack_list.packs.get(index) {
                     self.selected = Some(sel.clone());
-                    self.selected_version = sel.versions.first().and_then(|v| Some(v.name.clone()));
+                    self.selected_version = sel.versions.first().map(|v| v.name.clone());
                     if let Some(logo) = &sel.art.logo {
                         if !self.logos.contains_key(logo) {
                             return Command::perform(get_image(logo.clone()), |(id, n)| Message::LogoLoaded(id, n));
@@ -107,22 +123,26 @@ impl Application for App {
                 if let Some(version) = &self.selected_version {
                     if let Some(modpack) = &self.selected {
                         if let Some(version_id) =  modpack.versions.iter().find(|ver| ver.name.eq(version)).map(|ver| ver.id) {
+                            let n = modpack.name.clone();
                             return Command::perform(
                                 ftb_pack::Pack::get_from_id(id, version_id),
-                                |pack| Message::FTBModList(pack)
+                                |pack| Message::FTBModList(Box::new(pack), n)
                             );
                         }
                     }
                 }
             },
-            Message::FTBModList(pack) => {
-                if let Ok(pack) = pack {
+            Message::FTBModList(pack, name) => {
+                if let Ok(pack) = *pack {
                     if let Some(base_dir) = rfd::FileDialog::new().pick_folder() {
-                        return Command::perform(download_client(base_dir, pack), |_| Message::DownloadComplete);
+                        self.is_downloading = true;
+                        return Command::perform(download_client(base_dir, pack, name.clone()), |_| Message::DownloadComplete);
                     }
                 }
             },
-            Message::DownloadComplete => {},
+            Message::DownloadComplete => {
+                self.is_downloading = false;
+            },
         }
         Command::none()
     }
@@ -150,7 +170,7 @@ impl Application for App {
             .into();
 
          let selected = column![
-            selected_modpack(&self.selected_version, &self.logos, &self.selected)
+            selected_modpack(&self.selected_version, self.is_downloading, &self.logos, &self.selected)
         ].width(Length::FillPortion(60));
 
         row![
@@ -164,10 +184,10 @@ impl Application for App {
     }
 }
 
-async fn download_client(base_dir: PathBuf, pack: ftb_pack::Pack) {
+async fn download_client(base_dir: PathBuf, pack: ftb_pack::Pack, name: String) {
     let mut work_dir = base_dir.clone();
 
-    work_dir.push("modpack_tmp");
+    work_dir.push(format!("{} {}", name, pack.name));
     let _ = std::fs::create_dir(work_dir.clone());
 
     let manifest = manifest::Manifest::try_from(pack.clone()).unwrap();
@@ -184,10 +204,10 @@ async fn get_image(url: String) -> (String, Vec<u8>) {
         Ok(res) => res.bytes().await.ok()
     };
 
-    (url, bytes.and_then(|b| Some(b.to_vec())).unwrap_or(vec![]))
+    (url, bytes.map(|b|b.to_vec()).unwrap_or(vec![]))
 }
 
-fn selected_modpack<'a>(selected_version: &Option<String>, logos: &'a HashMap<String, Vec<u8>>, pack: &Option<ftb_modpacks::Modpack>) -> Element<'a, Message> {
+fn selected_modpack<'a>(selected_version: &Option<String>, is_downloading: bool, logos: &'a HashMap<String, Vec<u8>>, pack: &Option<ftb_modpacks::Modpack>) -> Element<'a, Message> {
     match pack {
         None => row!().padding(10).into(),
         Some(pack) => {
@@ -214,8 +234,7 @@ fn selected_modpack<'a>(selected_version: &Option<String>, logos: &'a HashMap<St
 
             let versions = pick_list(
                 pack.versions.clone().iter().map(|v| v.name.clone()).collect::<Vec<_>>(),
-                selected_version.clone(),
-                |v| Message::Version(v)
+                selected_version.clone(),Message::Version
             );
 
 
@@ -236,14 +255,21 @@ fn selected_modpack<'a>(selected_version: &Option<String>, logos: &'a HashMap<St
 
                 row![
                     versions,
-                    button("Client").on_press(Message::DownloadClient(pack.id)).padding(10)
+                    button("Client")
+                        .style(
+                            if is_downloading {
+                                theme::Button::Secondary
+                            } else {
+                                theme::Button::Primary
+                        })
+                    .on_press_maybe(is_downloading.not().then_some(Message::DownloadClient(pack.id))).padding(10)
                 ].padding(10).spacing(8)
             ].into()
         },
     }
 }
 
-fn modpack_button<'a>(index: usize, pack: &'a ftb_modpacks::Modpack) -> Element<'a, Message> {
+fn modpack_button(index: usize, pack: &ftb_modpacks::Modpack) -> Element<'_, Message> {
     let label= &pack.name;
     row!(
         button(&**label)
