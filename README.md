@@ -1,7 +1,7 @@
 # ftb2modpack
 Convert FTB modpacks to CurseForge modpack format.
 
-![image](https://github.com/OwczarekGit/ftb2modpack/assets/32412218/7a59bfb7-27a2-4c01-a316-7f792fc5699c)
+![Screenshot_20231215_164917](https://github.com/OwczarekGit/ftb2modpack/assets/32412218/d3b53f51-d741-4daa-9b1b-2033c801f1fa)
 
 ## building
 ```
