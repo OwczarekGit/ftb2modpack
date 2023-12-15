@@ -11,23 +11,24 @@ pub struct FTBModpackList {
 
 #[derive(Serialize, Deserialize, Debug)]
 pub enum FTBModpackError {
-    IoError,
-    ApiError,
-    FormatError,
+    Io,
+    Api,
+    Format,
 }
 
 impl FTBModpackList {
     pub async fn get_all() -> Result<Self, FTBModpackError> {
         let results = reqwest::get(FTB_API_URL)
             .await
-            .map_err(|_| FTBModpackError::ApiError)?;
+            .map_err(|_| FTBModpackError::Api)?;
         
-        results.json::<Self>().await.map_err(|_| FTBModpackError::FormatError)
+        results.json::<Self>().await.map_err(|_| FTBModpackError::Format)
     }
     
+    #[allow(unused)]
     pub fn from_file(path: &str) -> Result<Self, FTBModpackError> {
-        let raw = std::fs::read_to_string(path).map_err(|_| FTBModpackError::IoError)?;
-        serde_json::from_str(&raw).map_err(|_|FTBModpackError::FormatError)
+        let raw = std::fs::read_to_string(path).map_err(|_| FTBModpackError::Io)?;
+        serde_json::from_str(&raw).map_err(|_|FTBModpackError::Format)
     }
 }
 

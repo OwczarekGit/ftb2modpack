@@ -1,4 +1,5 @@
 use std::collections::HashMap;
+use std::io::Cursor;
 use std::path::PathBuf;
 use iced::{Application, Command, Element, Length, Renderer, Settings, Theme, theme};
 use iced::alignment::{Horizontal, Vertical};
@@ -8,7 +9,7 @@ use iced::widget::scrollable::Properties;
 use iced::widget::vertical_space;
 use std::ops::Not;
 use iced::widget::image::Handle;
-use crate::ftb_modpacks::{FTBModpackList};
+use crate::ftb_modpacks::FTBModpackList;
 
 mod manifest;
 mod ftb_pack;
@@ -16,31 +17,6 @@ mod ftb_modpacks;
 
 #[tokio::main]
 async fn main() -> iced::Result {
-    // dbg!(ftb_modpacks::FTBModpackList::get_all().await);
-    // if let Ok(modpacks) = ftb_modpacks::FTBModpackList::from_file("modpacks.json") {
-    //     modpacks.packs.iter().enumerate().for_each(|(i, pack)| {
-    //         println!("[{i:>3}] - {}", pack.name);
-    //     });
-        
-    //     let sel = modpacks.packs.first().unwrap();
-    //     let pack: Result<manifest::Manifest, _> = ftb_pack::Pack::get_from_id(sel.id, sel.versions.first().unwrap().id)
-    //         .await
-    //         .unwrap()
-    //         .try_into();
-    //     dbg!(pack);
-    // }
-    
-    // let _ = std::fs::create_dir("modpack");
-    // let path = "./pack.json";
-    // let raw = std::fs::read_to_string(&path).unwrap();
-    // let json: ftb_pack::Pack = serde_json::from_str(&raw).unwrap();
-    // let manifest = manifest::Manifest::try_from(json.clone()).unwrap();
-    
-    // for file in json.files {
-    //     ftb_pack::get_overrides("modpack", &file).await;
-    // }
-    
-    // let ftb_modpacks = FTBModpackList::from_file("modpacks.json").unwrap();
     let ftb_modpacks = FTBModpackList::get_all().await.unwrap();
     App::run(
         Settings {
@@ -58,6 +34,7 @@ pub enum Message {
     OpenProjectSite(i64, String),
     Version(String),
     DownloadClient(i64),
+    DownloadServer(i64),
     FTBModList(Box<Result<ftb_pack::Pack, ()>>, String),
     DownloadComplete,
 }
@@ -138,6 +115,18 @@ impl Application for App {
                     }
                 }
             },
+            Message::DownloadServer(id) => {
+                if let Some(version) = &self.selected_version {
+                    if let Some(modpack) = &self.selected {
+                        if let Some(version_id) =  modpack.versions.iter().find(|ver| ver.name.eq(version)).map(|ver| ver.id) {
+                            if let Some(base_dir) = rfd::FileDialog::new().pick_folder() {
+                                self.is_downloading = true;
+                                return Command::perform(download_server(base_dir, id, version_id), |_| Message::DownloadComplete);
+                            }
+                        }
+                    }
+                }
+            },
             Message::FTBModList(pack, name) => {
                 if let Ok(pack) = *pack {
                     if let Some(base_dir) = rfd::FileDialog::new().pick_folder() {
@@ -204,6 +193,40 @@ async fn download_client(base_dir: PathBuf, pack: ftb_pack::Pack, name: String) 
     }
 }
 
+async fn download_server(base_dir: PathBuf, pack_id: i64, version_id: i64) {
+    let mut work_dir = base_dir.clone();
+    
+    let url = if cfg!(windows) {
+        format!("https://api.modpacks.ch/public/modpack/{pack_id}/{version_id}/server/windows")       
+    } else if cfg!(linux) {
+        format!("https://api.modpacks.ch/public/modpack/{pack_id}/{version_id}/server/linux")       
+    } else if cfg!(macos) {
+        format!("https://api.modpacks.ch/public/modpack/{pack_id}/{version_id}/server/mac")       
+    } else {
+        format!("https://api.modpacks.ch/public/modpack/{pack_id}/{version_id}/server/freebsd")       
+    };
+    
+    match reqwest::get(url).await {
+        Err(_) => todo!(),
+        Ok(result) => {
+            let file_name = if cfg!(windows) {
+                format!("serverinstall_{pack_id}_{version_id}.exe")
+            } else {
+                format!("serverinstall_{pack_id}_{version_id}")
+            };
+
+            work_dir.push(file_name);
+            if let Ok(mut file) = std::fs::File::create(work_dir) {
+                if let Ok(bytes) = result.bytes().await {
+                    let mut cur = Cursor::new(bytes);
+                    let _ = std::io::copy(&mut cur, &mut file);
+                }
+            }
+        }
+    }
+
+}
+
 async fn get_image(url: String) -> (String, Vec<u8>) {
     let bytes = match reqwest::get(url.clone()).await {
         Err(_) => None,
@@ -267,7 +290,15 @@ fn selected_modpack<'a>(selected_version: &Option<String>, is_downloading: bool,
                             } else {
                                 theme::Button::Primary
                         })
-                    .on_press_maybe(is_downloading.not().then_some(Message::DownloadClient(pack.id))).padding(10)
+                    .on_press_maybe(is_downloading.not().then_some(Message::DownloadClient(pack.id))).padding(10),
+                    button("Server")
+                        .style(
+                            if is_downloading {
+                                theme::Button::Secondary
+                            } else {
+                                theme::Button::Primary
+                        })
+                    .on_press_maybe(is_downloading.not().then_some(Message::DownloadServer(pack.id))).padding(10)
                 ].padding(10).spacing(8)
             ].into()
         },
