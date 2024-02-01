@@ -1,15 +1,15 @@
 [package]
 name = "ftb2modpack"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 iced = { version = "0.10.0", features = ["tokio", "debug", "image"] }
-reqwest = { version = "0.11.23", features = ["json"] }
-serde = { version = "1.0.194", features = ["derive"] }
-serde_json = "1.0.110"
+reqwest = { version = "0.11.24", features = ["json"] }
+serde = { version = "1.0.196", features = ["derive"] }
+serde_json = "1.0.113"
 tokio = { version = "1.35.1", features = ["rt-multi-thread", "macros"] }
 open = "5.0.1"
-rfd = { version = "0.12.1", default-features = false, features = ["xdg-portal"] }
+rfd = { version = "0.13.0", default-features = false, features = ["xdg-portal", "tokio"] }
