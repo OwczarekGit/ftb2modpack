@@ -1,5 +1,5 @@
+use serde::{Deserialize, Serialize};
 use std::path::{Path, PathBuf};
-use serde::{Serialize, Deserialize};
 
 pub static API_URL: &str = "https://api.modpacks.ch/public/modpack/";
 
@@ -7,7 +7,7 @@ pub static API_URL: &str = "https://api.modpacks.ch/public/modpack/";
 #[serde(rename_all = "camelCase")]
 pub struct Pack {
     pub files: Vec<File>,
-    
+
     pub specs: Specs,
     pub targets: Vec<Target>,
 
@@ -29,8 +29,8 @@ impl Pack {
     pub async fn get_from_id(pack_id: i64, version_id: i64) -> Result<Self, ()> {
         let result = reqwest::get(format!("{API_URL}{}/{}", pack_id, version_id))
             .await
-            .map_err(|_|())?;
-        
+            .map_err(|_| ())?;
+
         result.json::<Self>().await.map_err(|_| ())
     }
 }
@@ -52,7 +52,6 @@ pub struct Target {
     pub r#type: String,
     pub updated: i64,
 }
-
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
 #[serde(rename_all = "camelCase")]
@@ -78,7 +77,7 @@ pub struct File {
 #[serde(rename_all = "camelCase")]
 pub struct CurseForge {
     pub project: i64,
-    pub file: i64,    
+    pub file: i64,
 }
 
 pub async fn get_overrides(base: PathBuf, file: &File) {
@@ -92,16 +91,13 @@ pub async fn get_overrides(base: PathBuf, file: &File) {
     path.push(file.path.clone());
     let _ = std::fs::create_dir_all(path.clone());
     path.push(file_name);
-    
-    
+
     if url.trim().eq("") {
         return;
     }
-    
-    let response = reqwest::get(url)
-        .await
-        .unwrap();
-    
+
+    let response = reqwest::get(url).await.unwrap();
+
     let bytes = response.bytes().await.unwrap();
 
     let _ = std::fs::write(path.clone(), &bytes);

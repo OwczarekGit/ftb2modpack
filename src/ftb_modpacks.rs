@@ -21,14 +21,17 @@ impl FTBModpackList {
         let results = reqwest::get(FTB_API_URL)
             .await
             .map_err(|_| FTBModpackError::Api)?;
-        
-        results.json::<Self>().await.map_err(|_| FTBModpackError::Format)
+
+        results
+            .json::<Self>()
+            .await
+            .map_err(|_| FTBModpackError::Format)
     }
-    
+
     #[allow(unused)]
     pub fn from_file(path: &str) -> Result<Self, FTBModpackError> {
         let raw = std::fs::read_to_string(path).map_err(|_| FTBModpackError::Io)?;
-        serde_json::from_str(&raw).map_err(|_|FTBModpackError::Format)
+        serde_json::from_str(&raw).map_err(|_| FTBModpackError::Format)
     }
 }
 
@@ -36,30 +39,29 @@ impl FTBModpackList {
 #[serde(rename_all = "camelCase")]
 pub struct Modpack {
     pub id: i64,
-    pub slug: String,    
-    pub name: String,    
-    pub synopsis: String,    
-    pub r#type: String,    
+    pub slug: String,
+    pub name: String,
+    pub synopsis: String,
+    pub r#type: String,
     pub versions: Vec<ModpackVersion>,
     pub art: ModpackArt,
-    pub stats: ModpackStats,   
+    pub stats: ModpackStats,
     pub featured: bool,
     pub tags: Vec<String>,
     pub released: i64,
     pub updated: i64,
-     
 }
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
 #[serde(rename_all = "camelCase")]
 pub struct ModpackVersion {
-    pub id: i64,    
-    pub name: String,    
-    pub r#type: String,    
-    pub minecraft: String,    
-    pub loader: String,    
-    pub loader_type: String,    
-    pub memory: Memory,    
+    pub id: i64,
+    pub name: String,
+    pub r#type: String,
+    pub minecraft: String,
+    pub loader: String,
+    pub loader_type: String,
+    pub memory: Memory,
 }
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
